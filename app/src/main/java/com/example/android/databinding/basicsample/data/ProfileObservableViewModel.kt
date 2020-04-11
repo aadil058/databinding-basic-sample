@@ -39,6 +39,7 @@ class ProfileObservableViewModel : ObservableViewModel() {
     }
 }
 
+// Extension function kotlin
 private fun ObservableInt.increment() {
     set(get() + 1)
 }
